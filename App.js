@@ -7,14 +7,19 @@ import CartItem from './component/CartItem';
 
 export default function App() {
 
-    const handlePress = () => {
-        alert("hello world")
-    }
+
     return (
         <SafeAreaView style={style.contaienr} >
 
 
-            <CartItem />
+            <CartItem
+                name="Model 3S"
+                tagLine="Order Online For"
+                subTitleCTG="Touchlsee Delivery"
+                image={require("./assets/images/ModelS.jpeg")}
+
+
+            />
 
         </SafeAreaView>
     );
